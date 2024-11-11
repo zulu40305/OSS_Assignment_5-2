@@ -1,0 +1,33 @@
+.row-item {
+  font-weight: bold;
+}
+
+.list-element a {
+  text-decoration: none;
+}
+
+.list-element:first-child {
+  border-top: 1px solid grey;
+}
+
+.list-element {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  border-bottom: 1px solid grey;
+}
+
+.list-element:nth-child(odd) {
+  background-color: rgb(219, 219, 219);
+}
+
+.list-element:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+.row-item {
+  display: inline-block;
+  width: 20%;
+  padding: 10px;
+}

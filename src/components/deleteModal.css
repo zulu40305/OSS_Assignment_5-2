@@ -1,0 +1,38 @@
+.delete_modal_container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  top:0;
+  left:0;
+  align-items: center;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.delete_modal_divider {
+  background-color: royalblue;
+  width: 100%;
+  height: 1.5px;
+  margin: 20px 0px;
+}
+
+.delete_modal_content {
+  position: absolute;
+  width:400px; 
+  height:100px;
+  padding: 20px 30px 80px 30px;  
+  text-align: center;
+  background-color: rgb(255,255,255);
+  border-radius:10px;
+}
+
+.btn-block button:first-child {
+  width: 120px;
+  margin-right: 20px;
+}
+
+.btn-block button:nth-child(2) {
+  width: 120px;
+  margin-left: 20px;
+}

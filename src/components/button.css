@@ -1,0 +1,40 @@
+button {
+  border: none;
+  border-radius: 5px;
+}
+
+.add {
+  float: right;
+  background-color: royalblue;
+  color: white;
+  padding: 8px 17.5px 8px 17.5px;
+}
+
+.edit {
+  width: 70px;
+  height: 25px;
+  background-color: royalblue;
+  color: white;
+}
+
+.delete {
+  width: 70px;
+  height: 25px;
+  background-color: crimson;
+  color: white;
+  padding: 5px 10px 5px 10px;
+}
+
+.submit, .confirm {
+  border: 1.5px royalblue solid;
+  background-color: royalblue;
+  color: white;
+  padding: 8px 17.5px 8px 17.5px;
+}
+
+.cancel {
+  border: 1.5px royalblue solid;
+  background-color: white;
+  color: royalblue;
+  padding: 8px 17.5px 8px 17.5px;
+}

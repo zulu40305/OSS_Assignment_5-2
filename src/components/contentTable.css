@@ -1,0 +1,20 @@
+.list-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.list-header .row-item {
+  font-weight: bold;
+}
+
+.element-container {
+  padding: 0px;
+}
+
+.row-item {
+  display: inline-block;
+  width: 20%;
+  padding: 10px;
+}
