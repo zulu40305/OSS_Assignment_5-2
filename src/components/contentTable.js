@@ -20,6 +20,7 @@ const ContentTable = (props) => {
         {data.map((e) => (
           <ListElement
             refreshData={props.refreshData}
+            data={e}
             key={e.id}
             id={e.id}
             name={e.name}

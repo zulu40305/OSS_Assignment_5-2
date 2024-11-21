@@ -1,0 +1,9 @@
+.item_label {
+  color: royalblue;
+  font-weight: bold;
+}
+
+.value {
+  color: black;
+  font-weight: 500;
+}

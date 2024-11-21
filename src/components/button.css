@@ -1,6 +1,7 @@
 button {
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .add {
@@ -30,6 +31,19 @@ button {
   background-color: royalblue;
   color: white;
   padding: 8px 17.5px 8px 17.5px;
+}
+
+.add:hover, .edit:hover, .submit:hover, .confirm:hover {
+  background-color: rgb(95, 133, 247);
+}
+
+.delete:hover {
+  background-color: rgb(243, 49, 87);
+}
+
+.submit:disabled, .confirm:disabled {
+  border: 1.5px #999999;
+  background-color: #999999;
 }
 
 .cancel {
